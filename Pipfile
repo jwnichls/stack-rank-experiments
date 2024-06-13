@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+notebook = {index = "pypi", version = "*" }
+black = {index = "pypi", version = "*" }
+pylint = {index = "pypi", version = "*" }
+flake8 = {index = "pypi", version = "*" }
+pytest-cov = {index = "pypi", version = "*" }
+pre-commit = {index = "pypi", version = "*" }
+jupyter-contrib-nbextensions = {index = "pypi", version = "*" }
+jupyter-nbextensions-configurator = {index = "pypi", version = "*" }
+
+[requires]
+python_version = "3.8"
